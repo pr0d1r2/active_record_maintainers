@@ -1,1 +1,9 @@
 Simple scripts to maintain Active Record installations
+
+check_counter_caches_in_all_models.rb:
+
+Go thru all counter caches within project and checks them via counting records.
+
+Usage (in Rails project directory):
+
+ruby PATH_TO_SCRIPT/check_counter_caches_in_all_models.rb
